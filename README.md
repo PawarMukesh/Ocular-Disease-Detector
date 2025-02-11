@@ -162,7 +162,6 @@ This project aims to develop a transfer learning-based AI system to detect and c
 
 ## PREDICTED IMAGES 
 ![image](https://github.com/user-attachments/assets/b78b3d37-2b66-4c34-bbdc-c2b232b840db)
-
 ![image](https://github.com/user-attachments/assets/fbb2e153-7095-4140-a7aa-f24b97cdd1c7)
 
 ## Conclusion
