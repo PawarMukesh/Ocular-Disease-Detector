@@ -33,16 +33,60 @@ This project aims to develop a transfer learning-based AI system to detect and c
   * month = { may }
  
 ## Data preprocessIng
-1. Clahe
+**1. Clahe**
    * Contrast Limited Adaptive Histogram Equalization
    * Enhanced Contrast
    * Standardized Input
    * Improved Detection Accuracy
-2. Data augmentatIon
+**2. Data augmentatIon**
    * Increases Data Diversity
    * Reduces Overfitting
    * Enhances Generalization
    * Makes Models Stronger
+
+## Data splitting
+* Use split-folder library to divide data into three parts with ratio (80%, 10%, 10%).
+* Remove the duplicate samples from training set.
+* Diversify the dataset by adding more number of samples.
+
+## VIsualIse TraInIng Images
+![image](https://github.com/user-attachments/assets/e813b4e7-c1f9-41ab-a4e6-00a5e04fdefd)
+
+## TRAINING PHASE
+* Experiment with different models: VGG19, VGG16, InceptionV3, Xception.
+* Build a custom Deep Convolutional Neural Network (DCNN).
+* Layers Used In Above Model:
+  1. Convolutional Layer
+  2. MaxPooling Layer
+  3. Flatten Layer
+  4. Dense Layer
+  5. Dropout Layer
+  6. Output Layer
+ 
+### 1.Deep convolutIonal neural network
+* Input Layer:
+  - Size: 224x224 RGB images.
+* Convolutional Blocks (4 Blocks):
+  - Each Block:
+    1. 1 Conv2D layer with 'relu' activation.
+    2. 1 MaxPooling2D layer.
+* Flatten Layer
+* Two Dense Layers
+* Output Layer with softmax activation.
+* Model Summary:
+  - Total Parameters: 19,427,520.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
