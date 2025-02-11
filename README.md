@@ -79,12 +79,12 @@ This project aims to develop a transfer learning-based AI system to detect and c
 ![image](https://github.com/user-attachments/assets/c06e76f8-4d24-4b35-9806-bc3f207e1b62)
 
 #### **IntegratIon Of DCNN Model WIth XAI**
-1. LIME (Local Interpretable Model-agnostic Explanations)
+**1. LIME (Local Interpretable Model-agnostic Explanations)**
    - Identifies strong feature matches in the image.
    - Formula For Lime:
      * (𝒙)=𝑳(𝒇,𝒈,𝜫𝒙)+𝜴(𝒈)
    - The ultimate goal is to reduce the defectiveness L(f,g,∏x), and complexity Ω(g) to generate best interpretation and explanation. 
-2. Occlusion Sensitivity
+**2. Occlusion Sensitivity**
    - Shows how blocking parts of the image affects the model's output
    - Formula:
      * 𝐼(𝑖,𝑗)=𝑃(├ 𝑐┤|𝐼)−𝑃(𝑜𝑐𝑐𝑙𝑢𝑑𝑒𝑑__𝐼(𝐼,𝑗))
