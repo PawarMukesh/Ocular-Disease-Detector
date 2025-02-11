@@ -162,7 +162,8 @@ This project aims to develop a transfer learning-based AI system to detect and c
 
 ## PREDICTED IMAGES 
 ![image](https://github.com/user-attachments/assets/b78b3d37-2b66-4c34-bbdc-c2b232b840db)
-![image](https://github.com/user-attachments/assets/fbb2e153-7095-4140-a7aa-f24b97cdd1c7)
+![image](https://github.com/user-attachments/assets/eec15a9d-afa3-4d80-bde7-c0c02dc34ba9)
+
 
 ## Conclusion
 In conclusion, both DCNN and InceptionV3 models performed excellently, with over 95% training accuracy and 90% testing accuracy. They effectively generalized across diverse eye disease images and had F1 scores above 90%, indicating minimal misclassifications. Using Explainable AI (XAI) techniques, such as LIME and Occlusion Sensitivity, we further validated the models by highlighting key image features and identifying influential areas. This project confirms that deep learning is highly effective for ocular disease detection.
