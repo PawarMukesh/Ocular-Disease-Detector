@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e79def95-5c5e-43a7-ad39-7445a4cb30ea)![image](https://github.com/user-attachments/assets/7b72dc22-65b5-404c-827d-f1e2d90a59e1)![image](https://github.com/user-attachments/assets/85cf1505-b464-4b4b-8ae7-b4fdeaf3c2b3)# AI POWERED OCULAR DISEASE DETECTION USING TRANSFER LEARNING APPROACHES 
+# AI POWERED OCULAR DISEASE DETECTION USING TRANSFER LEARNING APPROACHES 
 
 ## Introduction
 * Eye diseases are major causes of vision loss.
