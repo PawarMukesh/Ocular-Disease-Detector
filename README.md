@@ -63,7 +63,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
   5. Dropout Layer
   6. Output Layer
  
-### 1.Deep convolutIonal neural network
+### 1. Deep convolutIonal neural network
 * Input Layer:
   - Size: 224x224 RGB images.
 * Convolutional Blocks (4 Blocks):
@@ -83,7 +83,8 @@ This project aims to develop a transfer learning-based AI system to detect and c
    - Identifies strong feature matches in the image.
    - Formula For Lime:
      * (𝒙)=𝑳(𝒇,𝒈,𝜫𝒙)+𝜴(𝒈)
-   - The ultimate goal is to reduce the defectiveness L(f,g,∏x), and complexity Ω(g) to generate best interpretation and explanation. 
+   - The ultimate goal is to reduce the defectiveness L(f,g,∏x), and complexity Ω(g) to generate best interpretation and explanation.
+   - 
 **2. Occlusion Sensitivity**
    - Shows how blocking parts of the image affects the model's output
    - Formula:
