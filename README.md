@@ -1,38 +1,38 @@
 # AI POWERED OCULAR DISEASE DETECTION USING TRANSFER LEARNING APPROACHES 
 
-## Introduction
+## Introduction :
 * Eye diseases are major causes of vision loss.
 * Timely and accurate diagnosis is crucial for effective treatment
 * Delayed or improper treatment can lead to vision loss.
 * Common serious eye conditions include cataracts, diabetic retinopathy, and glaucoma
 * Vision loss can significantly impact overall well-being
 
-## problem statement 
+## Problem Statement :
 This project aims to develop a transfer learning-based AI system to detect and classify a wide range of ocular diseases from medical imaging data, helping to improve diagnostic accuracy, reduce healthcare costs, and provide timely interventions. 
 
-## The Need of ThIs TopIc
+## The Need of This Topic:
 * Early Diagnosis
 * Vision Protection
 * Lower in Price
 * Monitoring
 
-## ObjectIves
+## ObjectIves:
 1. Design and Develop Deep Learning Models: Create models to detect all types of ocular diseases.
 2. Evaluate and Compare Transfer Learning Models: Analyze state-of-the-art models to improve accuracy and detection speed.
 3. Integrate XAI Strategies: Use Explainable AI to build a precise and secure system for identifying ocular diseases from retinal images.
 4. Develop an Intuitive Interface: Provide doctors with immediate and meaningful information about detected ocular diseases.
 
-## Methodology
+## Methodology:
 ![image](https://github.com/user-attachments/assets/badc25ef-bea9-44c0-8597-d950c56fdf39)
 
-## Data Collection
+## Data Collection:
 * Data collected from Roboflow, Total 6009 images divided into four classes.
 * url = { https://universe.roboflow.com/projects-dmmza/ocular-diseases }
   * publisher = { Roboflow }
   * year = { 2024 }
   * month = { may }
  
-## Data preprocessIng
+## Data Preprocessing
 **1. Clahe**
    * Contrast Limited Adaptive Histogram Equalization
    * Enhanced Contrast
@@ -44,12 +44,12 @@ This project aims to develop a transfer learning-based AI system to detect and c
    * Enhances Generalization
    * Makes Models Stronger
 
-## Data splitting
+## Data Splitting
 * Use split-folder library to divide data into three parts with ratio (80%, 10%, 10%).
 * Remove the duplicate samples from training set.
 * Diversify the dataset by adding more number of samples.
 
-## VIsualIse TraInIng Images
+## VisualIse Training Images
 ![image](https://github.com/user-attachments/assets/e813b4e7-c1f9-41ab-a4e6-00a5e04fdefd)
 
 ## TRAINING PHASE
@@ -63,7 +63,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
   5. Dropout Layer
   6. Output Layer
  
-### 1. Deep convolutIonal neural network
+### 1. Deep convolutional neural network
 * Input Layer:
   - Size: 224x224 RGB images.
 * Convolutional Blocks (4 Blocks):
@@ -78,7 +78,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
  
 ![image](https://github.com/user-attachments/assets/c06e76f8-4d24-4b35-9806-bc3f207e1b62)
 
-#### **IntegratIon Of DCNN Model WIth XAI**
+#### **IntegratIon Of DCNN Model With XAI**
 **1. LIME (Local Interpretable Model-agnostic Explanations)**
    - Identifies strong feature matches in the image.
    - Formula For Lime:
@@ -95,7 +95,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
 
 ![image](https://github.com/user-attachments/assets/92d18a86-0527-489c-9e1c-43c054a24b06)
 
-### 2. vgg19 model
+### 2. Vgg19 model
 * VGG: Stands for Visual Geometry Group.
 * Total Layers: 19 (16 Conv2D, 3 Dense, MaxPooling2D).
 * Model Loading:
@@ -110,7 +110,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
   - Total Trainable Parameters: 20,155,460.
 ![image](https://github.com/user-attachments/assets/de061ba6-9261-4587-bf39-f18a18f9085d)
 
-### 3. vgg16 model
+### 3. Vgg16 model
 * VGG16: Developed for large-scale image classification. 
 * Total Layers: 16 (13 Conv2D, 3 Dense).
 * Model Loading & Customization:
@@ -166,7 +166,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
 ![image](https://github.com/user-attachments/assets/df3befc8-eaf4-4dcd-bb6b-25777f433a2f)
 
 
-## Conclusion
+## Conclusion:
 In conclusion, both DCNN and InceptionV3 models performed excellently, with over 95% training accuracy and 90% testing accuracy. They effectively generalized across diverse eye disease images and had F1 scores above 90%, indicating minimal misclassifications. Using Explainable AI (XAI) techniques, such as LIME and Occlusion Sensitivity, we further validated the models by highlighting key image features and identifying influential areas. This project confirms that deep learning is highly effective for ocular disease detection.
 
 ## Refrences
