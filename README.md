@@ -27,7 +27,7 @@ This project aims to develop a transfer learning-based AI system to detect and c
 
 ## Data Collection:
 * Data collected from Roboflow, Total 6009 images divided into four classes.
-* url = { https://universe.roboflow.com/projects-dmmza/ocular-diseases }
+* url =  https://universe.roboflow.com/projects-dmmza/ocular-diseases 
   * publisher = { Roboflow }
   * year = { 2024 }
   * month = { may }
